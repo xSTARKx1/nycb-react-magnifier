@@ -16,7 +16,7 @@
 		"email": "me@samuelmeuli.com",
 		"url": "https://samuelmeuli.com"
 	},
-	"repository": "github:xSTARKx1/nycb-react-magnifier",
+	"repository": "github:samuelmeuli/react-magnifier",
 	"homepage": "https://react-magnifier.samuelmeuli.com",
 	"license": "MIT",
 	"files": [
