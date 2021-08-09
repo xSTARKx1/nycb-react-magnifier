@@ -256,8 +256,7 @@ export default class Magnifier extends PureComponent<Props, State> {
 							backgroundImage: `url("${zoomImgSrc || src}")`,
 							backgroundPosition: `calc(${relX * 100}% + ${mgWidth / 2}px - ${relX *
 								mgWidth}px) calc(${relY * 100}% + ${mgHeight / 2}px - ${relY * mgWidth}px)`,
-							backgroundSize: `${zoomFactor * this.imgBounds.width}% ${zoomFactor *
-								this.imgBounds.height}%`,
+							backgroundSize: `auto`,
 							borderWidth: mgBorderWidth,
 						}}
 					/>
